@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Características del texto</title>
+<link href="reset.css" rel="stylesheet" type="text/css">
+<style>
+body{
+	color:#003;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:62%;
+	background:#09F url(imagenes/fondo_div.png) repeat-x;
+	}
+#principal{
+	width:740px;
+	margin:auto;
+	border:#FFF solid 4px;
+	padding:0 10px; /*0 10px 0 10px*/
+	background:url(imagenes/fondo.jpg) no-repeat;
+	}
+#principal h1{
+	color:#F30;
+	font-family:"Arial black", Arial, Helvetica, sans-serif;
+	font-size:4em;
+	}
+#principal h1 strong{
+	font-size:120px;
+	color:#FFF;
+	margin-right:-0.75em; /*para que se superpongan los textos*/
+	}
+#principal h2{
+	font:bold 3.5em "Hoefler Text",Garamond,Times,serif;
+	border-bottom:1px solid #000;
+	margin-top:25px;
+	}
+#principal h3{
+	color:#F30;
+	font-size:1.9em;
+	font-weight:bold;
+	text-transform:uppercase;/*nos lo pone en mayúsculas*/
+	margin-top:25px;
+	margin-bottom:10px;
+	}
+#principal p{
+	font-size:1.5em;
+	line-height:150%;/*interlineado*/
+	margin-left:150px;
+	margin-right:50px;
+	margin-bottom:10px;
+	}
+/*pseudoelemento*/	
+#principal p:first-line{
+	font-weight:bold;
+	color:#666;
+	}
+#principal ul{
+	margin:50px 0 25px 50px; /*top right botton left*/
+	width:160px;
+	float:right;	
+	}
+#principal li{
+	color:#000;
+	font-size:1.5em;
+	margin-bottom:7px:
+	}
+.autor{
+	font-size:1.6em;
+	margin:5px 0 25px 50px;
+	}
+.autor strong{
+	color:#F00;
+	text-transform:uppercase;
+	margin-left:5px;
+	}
+				
+</style>
+</head>
+
+<body>
+<div id="principal">
+<h1><strong>CSS</strong>El curso total</h1>
+<h2>Cambiando el formato al texto</h2>
+<p class="autor">EFA EL CAMPICO <strong>DESARROLLO DE APLICACIONES WEB</strong></p>
+<ul>
+  <li>Lorem Ipsum</li>
+  <li>Reprehenderit qui in ea</li>
+  <li>Lorem Ipsum</li>
+  <li>Reprehenderit qui in ea</li>
+  <li>Lorem Ipsum</li>
+  <li>Reprehenderit qui in ea</li>
+</ul>
+<h3>Esse quam nulla</h3>
+<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<h3>Quis autem vel eum</h3>
+<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+</div>
+</body>
+</html>
